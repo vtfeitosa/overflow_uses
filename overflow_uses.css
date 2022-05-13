@@ -1,3 +1,39 @@
 section {
-    border-color: blue;
+    border: 1px;
+}
+
+section p {
+    font-size: 60px;
+}
+
+.caixa_visible {
+    overflow: visible;
+    background: aqua;
+    height: 50px;
+    width: 150px;
+}
+
+.caixa_hidden {
+    overflow: hidden;
+    background: red;
+    height: 50px;
+    width: 150px;
+}
+
+.caixa_scroll {
+    overflow: scroll;
+    background: green;
+    height: 50px;
+    width: 150px;
+}
+
+.caixa_auto {
+    overflow: auto;
+    background: pink;
+    height: 50px;
+    width: 150px;
+}
+
+.legenda {
+    font-size: 15px;
 }
